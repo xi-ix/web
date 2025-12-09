@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="Chinese">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的小窝</title>
-    <link rel="stylesheet" href="src/styles/basestyle.css">
-    <link rel="stylesheet" href="src/styles/otherstyle.css">
+    <link
+            href="https://fonts.googleapis.ac.cn/css?family=Open+Sans"
+            rel="stylesheet" />
 
+    <link rel="stylesheet" href="src/styles/base.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/main.css">
 </head>
 
 
@@ -23,28 +27,37 @@
         </nav>
     </header>
 
-    <main id="main" class="card">
+
+    <main id="main" >
         <article>
-            <h2>做一个小网站</h2>
-            <p>做出来的样子好丑</p>
+            <h2 id="head1main">做一个小网站</h2>
+
+
             <button id="myButton">点击我</button>
             <p id="myText">原始文本</p>
-            <script src="src/scripts/main.js"></script>
-            <p style="color: brown;">换换颜色？</p>
+
             <img src="assets/image/1.jpg" alt="图片" style="max-width: 100%" />
+
+
+
+        </article>
+
+        <div>
+            <p>常用网站</p>
             <ul>
                 <li><a href="https://www.baidu.com">百度</a></li>
 
                 <li><a href="https://www.bilibili.com">bilibili</a></li>
             </ul>
+        </div>
 
 
-        </article>
     </main>
 
     <footer>
         <p>版权所有 © 2025</p>
     </footer>
+    <script src="src/scripts/main.js"></script>
 </body>
 
 

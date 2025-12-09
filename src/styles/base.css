@@ -1,0 +1,52 @@
+html {
+  font-size: 10px;
+  background-color: #ffffff;
+  font-family:  sans-serif;
+}
+
+
+/* 1. 设置一个现代的字体栈，确保跨设备兼容性 */
+body {
+  margin: 10px; /*默认外边距 */
+  line-height: 1.6; /* 增加行高，提高文本可读性 */
+  border-radius: 6px; /* 圆角，现代感的标志 */
+  background-color: #f4f4f4;
+  border: 3px solid black;
+  padding: 20px; /* 给内容周围增加一些呼吸空间 */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000000; /* 标题使用更深的颜色，突出层次 */
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+/* 3. 优化段落 */
+p {
+  margin-bottom: 1em; /* 增加段落之间的间距，避免文字挤在一起 */
+}
+
+/* 4. 优化链接 */
+a {
+  color: #007bff; /* 一个标准且舒适的蓝色 */
+  text-decoration: none; /* 移除默认的下划线 */
+}
+a:hover {
+  text-decoration: underline; /* 鼠标悬停时显示下划线，提供交互反馈 */
+}
+/* 5. 图片格式 */
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果 */
+  width: 500px;
+  height: auto;
+  border: 1px solid #000000;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+

@@ -5,7 +5,7 @@ let text = document.getElementById("myText");
 // 2. 添加点击事件
 button.addEventListener("click", function() {
     // 3. 修改元素内容
-    text.textContents = "文本被改变了！";
+    text.textContent = "文本被改变了！";
     text.style.color = "red";
   
     // 4. 创建新元素
@@ -15,3 +15,8 @@ button.addEventListener("click", function() {
     document.body.appendChild(newElement);
 });
 
+//更换标题
+const myheading = document.getElementById("head1main");
+myheading.textContent="hello world!";
+
+alert("hello!"); //  弹出提示框，显示"hello!"
